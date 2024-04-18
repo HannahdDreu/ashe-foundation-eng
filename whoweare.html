@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+    <head>
+        <meta charset="UTF-8" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ASHE Foundation</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+      <body class="min-h-screen">  
+<!-- HEADER -->
+<header>
+    <nav class="bg-white border-solid border-b-2 rounded-bl border-white px-4 lg:px-6 py-6 dark:bg-white">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+            <img src="img/Untitled design.svg" class="mr-6 h-12 sm:h-18" alt="logo Ashe foundation" />
+            <div class="flex items-center lg:order-2">
+  <!-- LANGUAE TOGLER -->
+  <div class="sticky top-[20px] right-[60px] text-[40px] cursor-pointer inline-flex">
+  <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-grey-500 rounded-lg cursor-pointer hover:bg-rose-800 dark:hover:bg-rose-800 dark:hover:text-grey-500">
+  <svg class="w-5 h-5 rounded-full me-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+  
+    <defs>
+    </defs>
+    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+      <path d="M 2.57 30 h 84.859 C 81.254 12.534 64.611 0.015 45.033 0 h -0.068 C 25.388 0.015 8.745 12.534 2.57 30 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(174,28,40); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+      <path d="M 87.429 60 H 2.57 C 8.749 77.476 25.408 90 45 90 S 81.25 77.476 87.429 60 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(33,70,139); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+      <path d="M 87.429 60 C 89.088 55.307 90 50.261 90 45 c 0 -5.261 -0.911 -10.307 -2.571 -15 H 2.57 C 0.911 34.693 0 39.739 0 45 c 0 5.261 0.912 10.307 2.571 15 H 87.429 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(243,244,245); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+    </g>
+    </svg>
+  Dutch
+  </button>
+  <!-- Dropdown Language Selector -->
+  <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700" id="language-dropdown-menu">
+  <ul class="py-2 font-medium" role="none">
+  <li>
+    <a href="https://www.ashefoundation.nl/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+      <div class="inline-flex items-center">
+        <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full me-2" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-nl" viewBox="0 0 256 256" xml:space="preserve">
+          <defs>
+          </defs>
+          <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+            <path d="M 2.57 30 h 84.859 C 81.254 12.534 64.611 0.015 45.033 0 h -0.068 C 25.388 0.015 8.745 12.534 2.57 30 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(174,28,40); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            <path d="M 87.429 60 H 2.57 C 8.749 77.476 25.408 90 45 90 S 81.25 77.476 87.429 60 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(33,70,139); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            <path d="M 87.429 60 C 89.088 55.307 90 50.261 90 45 c 0 -5.261 -0.911 -10.307 -2.571 -15 H 2.57 C 0.911 34.693 0 39.739 0 45 c 0 5.261 0.912 10.307 2.571 15 H 87.429 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(243,244,245); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+          </g>
+          </svg>
+        Dutch
+      </div>
+  </a>
+  </li>
+  <li>
+    <a href="https://www.ashefoundation.net/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+      <div class="inline-flex items-center">
+        <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512"><g fill-rule="evenodd"><g stroke-width="1pt"><path fill="#bd3d44" d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/><path fill="#fff" d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/></g><path fill="#192f5d" d="M0 0h98.8v70H0z" transform="scale(3.9385)"/><path fill="#fff" d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z" transform="scale(3.9385)"/></g></svg>              
+        English
+      </div>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+               
+                <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </div>
+            <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                    <li>
+                        <a href="index.html" class="block py-2 pr-4 pl-3 text-gray-500 rounded bg-primary-500 lg:bg-transparent lg:text-primary-500 lg:p-0 dark:text-gray-800">Home</a>
+                    </li>
+                    <li>
+                        <a href="whatwedo.html" class="block py-2 pr-4 pl-3 text-gray-500 rounded bg-primary-500 lg:bg-transparent lg:text-primary-500 lg:p-0 dark:text-gray-800">What we do</a>
+                    </li>
+                    <li>
+                      <a href="whoweare.html" class="block py-2 pr-4 pl-3 text-gray-500 rounded bg-primary-500 lg:bg-transparent lg:text-primary-500 lg:p-0 dark:text-gray-800">Who we are</a>
+                  </li>
+                    <li>
+                        <a href="projects.html" class="block py-2 pr-4 pl-3 text-gray-500 rounded bg-primary-500 lg:bg-transparent lg:text-primary-500 lg:p-0 dark:text-gray-800">Projects</a>
+                    </li>
+                    <li>
+                        <a href="helpout.html" class="block py-2 pr-4 pl-3 text-gray-500 rounded bg-primary-500 lg:bg-transparent lg:text-primary-500 lg:p-0 dark:text-gray-800">Get involved</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="block py-2 pr-4 pl-3 text-gray-500 rounded bg-primary-500 lg:bg-transparent lg:text-primary-500 lg:p-0 dark:text-gray-800">Contact</a>
+                    </li>
+                </ul>
+           </div>
+  </header>
+<!-- MAIN -->
+      <main class="mx-16">
+
+        <div class="container flex justify-center mx-auto pt-16">
+          <div>
+            <h1 class="xl:text-4xl text-3xl text-center text-rose-600 dark:text-rose-600 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">Who we are</h1>
+            <h2 role="introduction" class="max-w-2xl mb-4 text-center font-semibold tracking-tight leading-none md:text-2xl xl:text-2xl text-gray-500 dark:text-gray-500">Board members and our local partner</h2>
+              <p class="text-gray-500 dark:text-gray-800 text-lg text-center font-normal pb-3">
+                The board of Ashe Foundation consists of three members and they are jointly authorized. <br> No financial benefits are provided to the directors of Ashe Foundation. <br> <br> All financial donations go directly to the Maasai community.
+              </p>
+              <br>
+              <br>
+          </div>
+      </div>
+      <div class="w-full bg-gray-100 dark:bg-gray-100 px-10 pt-10">
+          <div class="container mx-auto">
+              <div role="list" aria-label="Behind the scenes People " class="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
+                  <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                      <div class="rounded overflow-hidden shadow-md bg-white dark:bg-white">
+                          <div class="absolute -mt-20 w-full flex justify-center">
+                              <div class="h-32 w-32">
+                                  <img src="img/amy.webp" alt="Display Picture of Amory Berkenveld" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                              </div>
+                          </div>
+                          <div class="px-6 mt-16">
+                              <h1 class="font-bold dark:gray-800 text-3xl text-center mb-1">Amory Berkenveld</h1>
+                              <p class="text-center text-gray-600 dark:text-gray-800 text-base pt-3 font-normal">
+                                Amory is the founder and chairperson of Ashe Foundation. She resides in both the Netherlands and Tanzania. <br> <br> As an academic in public administration with extensive experience in the public domain, she is passionate about contributing to a fairer (international) society. Her intrinsic motivation to make the world more socioeconomically equitable has led to the establishment of Ashe Foundation. Amory primarily performs the duties as an executive director from Tanzania. <br> <br> <i>"With my intrinsic values and motivation to help people, and my conviction that everyone should have the opportunity to develop themselves in life in a fair and just manner, I founded Ashe Foundation with much love and joy last year."</i></p>
+                              <div class="w-full flex justify-center pt-5 pb-5">
+                                <a class="text-gray-600 hover:text-gray-800" aria-label="Visit TrendyMinds LinkedIn" href="https://www.linkedin.com/in/amy-berkenveld-56bb6637/" target="_blank"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5">
+                                    <path fill="currentColor"
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                    </path>
+                                </svg>
+                            </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div role="listitem" class="xl:w-1/3 lg:mx-3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                      <div class="rounded overflow-hidden shadow-md bg-white dark:bg-white">
+                          <div class="absolute -mt-20 w-full flex justify-center">
+                              <div class="h-32 w-32">
+                                  <img src="img/rox.webp" alt="Display Picture of Roxane Root" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                              </div>
+                          </div>
+                          <div class="px-6 mt-16">
+                              <h1 class="font-bold dark:text-gray-800 text-3xl text-center mb-1">Roxane Root</h1>
+                              <br>
+                              <p class="text-center text-gray-600 dark:text-gray-800 text-base pt-3 font-normal">
+                                Roxane is a board member and secretary of Ashe Foundation. <br><br> With a background in secretarial work, Roxane Root will serve as the Secretary within Ashe Foundation. She will provide support during meetings, where projects to be undertaken will be discussed and board decisions will be made. These meetings will be documented, and Roxane will undertake the role of secretary. <br> <br> <i>"I want to make a difference in the world. Working at Ashe Foundation is a direct way to have a positive impact on the lives of people in Tanzania. By sharing my time and talents, I can help improve the living conditions of children and others and give them a better future. It gives me a sense of satisfaction and purpose and helps enrich my own life."</i></p>
+                              <div class="w-full flex justify-center pt-5 pb-5">
+                                <a class="text-gray-600 hover:text-gray-800" aria-label="Visit TrendyMinds LinkedIn" href="https://www.linkedin.com/in/roxane-r-8b413a1a7/" target="_blank"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5">
+                                    <path fill="currentColor"
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                    </path>
+                                </svg>
+                            </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                      <div class="rounded overflow-hidden shadow-md bg-white dark:bg-white">
+                          <div class="absolute -mt-20 w-full flex justify-center">
+                              <div class="h-32 w-32">
+                                  <img src="img/Hannah1.webp" alt="Display Picture of Hannah de Dreu" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                              </div>
+                          </div>
+                          <div class="px-6 mt-16">
+                              <h1 class="font-bold dark:text-gray-800 text-3xl text-center mb-1">Hannah de Dreu</h1>
+                              <br>
+                              <p class="text-center text-gray-600 dark:text-gray-800 text-base pt-3 font-normal">
+                                Hannah is a board member and treasurer of Ashe Foundation. <br><br> As the treasurer of Ashe Foundation, she utilizes her organizational talents to create positive impact where it is most needed. Her travel experiences have taught her that real change begins with understanding and respecting different cultures, with the aim of empowering people to regain control over their own lives. <br><br> <i>"Change is not always a leap into the unknown, but often a journey of small steps that together make a big impact. With Ashe Foundation, we hope to have a positive impact on the Maasai community."</i></p>
+                              <div class="w-full flex justify-center pt-5 pb-5">
+                                <a class="text-gray-600 hover:text-gray-800" aria-label="Visit TrendyMinds LinkedIn" href="https://www.linkedin.com/in/hannahdedreu/" target="_blank"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5">
+                                    <path fill="currentColor"
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <br>
+                            <br>
+                            <br>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                      <div class="rounded overflow-hidden shadow-md bg-white dark:bg-white">
+                          <div class="absolute -mt-20 w-full flex justify-center">
+                              <div class="h-32 w-32">
+                                  <img src="img/Kangaiprofiel.webp" alt="Display Picture of Kangai Oropi" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                              </div>
+                          </div>
+                          <div class="px-6 mt-16">
+                              <h1 class="font-bold dark:gray-800 text-3xl text-center mb-1">Kangai Oropi</h1>
+                              <p class="text-center text-gray-600 dark:text-gray-800 text-base pt-3 font-normal">
+                                Kangai was born in Tanzania. He is the eldest son in the Maasai family and therefore also takes care of his family. He has been working as a Maasai security guard for tourists since 2015. <br> <br> As a local partner of Ashe Foundation, Kangai is an important link because he is part of the community. <br> <br> He serves as a volunteer for Ashe Foundation in his role as a local partner.</p>
+                    <br>
+                    <br>
+                          </div>
+                      </div>
+                  </div>
+    </main>
+    <br>
+    <br>
+<!--FOOTER-->
+<footer class="p-4 bg-gray-500 sm:p-6 dark:bg-gray-800">
+    <div class="mx-auto max-w-screen-xl">
+        <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+            </div>
+            <div class="grid grid-cols-2 gap-16 sm:gap-16 sm:grid-cols-3">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-300 uppercase dark:text-white">Company</h2>
+                    <ul class="text-gray-400 dark:text-gray-400">
+                      
+                        <li class="mb-4">
+                            <a href="finance.html" class="hover:underline">Annual report and financial statements</a>
+                        </li> 
+                        <!--<li class="mb-4">
+                          <a href="https://tailwindcss.com/" class="hover:underline">Financiën en fondsenwerving</a>
+                      </li>
+                    </ul>-->
+                </div>
+                <div>
+                   <h2 class="mb-6 text-sm font-semibold text-gray-300 uppercase dark:text-white">Contact & Services</h2>
+                    <ul class="text-gray-400 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="contact.html" class="hover:underline ">Contact</a>
+                        </li>
+                        <li>
+                            <a href="complains.html" class="hover:underline">A comment or complaint?</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-300 uppercase dark:text-white">Legal</h2>
+                    <ul class="text-gray-400 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:4ee3750a-9658-4544-90c2-75251f63022f" Target="_blank" class="hover:underline">Privacy statement & Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:42d6cfe6-cb21-459c-9663-ce9f8738bc33" Target="_blank" class="hover:underline">Terms and Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-300 sm:text-center dark:text-gray-300">© 2024 Ashe Foundation. All Rights Reserved.
+            </span>
+            <!--
+            <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+                <a href="#" class="text-rose-200 hover:text-rose-400 dark:hover:text-white">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="#" class="text-rose-200 hover:text-rose-400 dark:hover:text-white">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                </a>
+            </div>-->
+        </div>
+    </div>
+  </footer>
+        <script>
+          let ham = document.getElementById('hammm')
+          function Open(){
+            ham.classList.add('w-[100%]')
+          }
+          function Close(){
+            ham.classList.remove('w-[100%]')
+          }
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+      </body>
+  </html>
