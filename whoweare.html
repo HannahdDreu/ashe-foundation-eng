@@ -21,8 +21,8 @@
     
         <!-- Meta Tags -->
         <meta charset="UTF-8">
-        <meta name="description" content="Ashe Foundation werkt aan een wereld waarin de Maasai gemeenschap in Tanzania kansen heeft om het goede leven en het eigen geluk na te streven.">
-        <meta name="keywords" content="Contact, Stichting, Doneren, Maasai gemeenschap">
+        <meta name="description" content="Ashe Foundation is working toward a world where the Maasai community in Tanzania has the opportunity to pursue a good life and their own happiness.">
+        <meta name="keywords" content="Contact, Foundation, Donate, Maasai Community">
         <meta name="author" content="ASHE Foundation">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#ffffff">
@@ -71,82 +71,107 @@
 <header>
     <nav class="bg-white border-solid border-b-2 px-4 lg:px-6 py-4">
         <div class="mx-auto max-w-screen-xl">
-            <!-- First Row: Language Toggler -->
-            <div class="flex justify-end items-center mb-2 lg:hidden">
-                <!-- Language Toggler -->
-                <div class="relative">
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" class="px-4 py-2 text-sm text-gray-900 hover:bg-gray-100 rounded-lg flex items-center">
-                        <img src="img/flag-nl.svg" alt="Dutch" class="w-5 h-5 mr-2">
-                        Dutch
-                    </button>
-                    <!-- Dropdown Menu -->
-                    <div class="hidden absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg z-10" id="language-dropdown-menu">
-                        <ul class="py-1">
-                            <li>
-                                <a href="https://www.ashefoundation.nl/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                    <img src="img/flag-nl.svg" alt="Dutch" class="w-5 h-5 mr-2"> Dutch
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.ashefoundation.net/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                    <img src="img/flag-us.svg" alt="English" class="w-5 h-5 mr-2"> English
-                                </a>
-                            </li>
-                        </ul>
+            <!-- Mobile Layout -->
+            <div class="lg:hidden">
+                <!-- First Row: Language Toggler -->
+                <div class="flex justify-end items-center mb-2">
+                    <div class="relative">
+                        <button type="button" data-dropdown-toggle="language-dropdown-menu-mobile" class="px-4 py-2 text-sm text-gray-900 hover:bg-gray-100 rounded-lg flex items-center">
+                            <img src="img/flag-nl.svg" alt="Dutch" class="w-5 h-5 mr-2">
+                            Dutch
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div class="hidden absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg z-10" id="language-dropdown-menu-mobile">
+                            <ul class="py-1">
+                                <li>
+                                    <a href="https://www.ashefoundation.nl/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                        <img src="img/flag-nl.svg" alt="Dutch" class="w-5 h-5 mr-2"> Dutch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.ashefoundation.net/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                        <img src="img/flag-us.svg" alt="English" class="w-5 h-5 mr-2"> English
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
+
+                <!-- Second Row: Logo and Hamburger Menu -->
+                <div class="flex justify-between items-center">
+                    <a href="https://www.ashefoundation.net/" class="flex items-center bg-white px-3 py-2 rounded-lg">
+                        <img src="img/Untitled design.svg" class="h-16 sm:h-20" alt="ASHE Foundation Logo">
+                    </a>
+                    <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Mobile Navigation Menu -->
+                <div class="hidden" id="mobile-menu">
+                    <ul class="flex flex-col mt-4 font-medium space-y-2">
+                        <li><a href="index.html" class="block py-2 text-gray-500 hover:text-gray-800">Home</a></li>
+                        <li><a href="whatwedo.html" class="block py-2 text-gray-500 hover:text-gray-800">What we do</a></li>
+                        <li><a href="whoweare.html" class="block py-2 text-gray-500 hover:text-gray-800">Who we are</a></li>
+                        <li><a href="projects.html" class="block py-2 text-gray-500 hover:text-gray-800">Projects</a></li>
+                        <li><a href="contact.html" class="block py-2 text-gray-500 hover:text-gray-800">Contact</a></li>
+                        <li>
+                            <a href="https://donorbox.org/project-enkishon" target="_blank" class="block px-4 py-2 text-center text-white bg-rose-600 rounded-lg hover:bg-rose-700">
+                                Donate
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
-            <!-- Second Row: Logo and Hamburger Menu -->
-            <div class="flex justify-between items-center">
-                <!-- Logo -->
+            <!-- Desktop Layout -->
+            <div class="hidden lg:flex justify-between items-center">
                 <a href="https://www.ashefoundation.net/" class="flex items-center bg-white px-3 py-2 rounded-lg">
                     <img src="img/Untitled design.svg" class="h-16 sm:h-20" alt="ASHE Foundation Logo">
                 </a>
-
-                <!-- Mobile Menu Button -->
-                <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-            </div>
-
-            <!-- Desktop Navigation Links -->
-            <div class="hidden lg:flex justify-between items-center space-x-6">
-                <a href="index.html" class="text-gray-500 hover:text-gray-800">Home</a>
-                <a href="whatwedo.html" class="text-gray-500 hover:text-gray-800">What we do</a>
-                <a href="whoweare.html" class="text-gray-500 hover:text-gray-800">Who we are</a>
-                <a href="projects.html" class="text-gray-500 hover:text-gray-800">Projects</a>
-                <a href="contact.html" class="text-gray-500 hover:text-gray-800">Contact</a>
-                <!-- Donate Button -->
-                <a href="https://donorbox.org/project-enkishon" target="_blank" class="px-4 py-2 text-white bg-rose-600 rounded-lg hover:bg-rose-700">
-                    Donate
-                </a>
-            </div>
-
-            <!-- Mobile Navigation Menu -->
-            <div class="hidden lg:hidden" id="mobile-menu">
-                <ul class="flex flex-col mt-4 font-medium space-y-2">
-                    <li><a href="index.html" class="block py-2 text-gray-500 hover:text-gray-800">Home</a></li>
-                    <li><a href="whatwedo.html" class="block py-2 text-gray-500 hover:text-gray-800">What we do</a></li>
-                    <li><a href="whoweare.html" class="block py-2 text-gray-500 hover:text-gray-800">Who we are</a></li>
-                    <li><a href="projects.html" class="block py-2 text-gray-500 hover:text-gray-800">Projects</a></li>
-                    <li><a href="contact.html" class="block py-2 text-gray-500 hover:text-gray-800">Contact</a></li>
-                    <li>
-                        <!-- Donate Button -->
-                        <a href="https://donorbox.org/project-enkishon" target="_blank" class="block px-4 py-2 text-center text-white bg-rose-600 rounded-lg hover:bg-rose-700">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
+                <div class="flex space-x-6">
+                    <a href="index.html" class="text-gray-500 hover:text-gray-800">Home</a>
+                    <a href="whatwedo.html" class="text-gray-500 hover:text-gray-800">What we do</a>
+                    <a href="whoweare.html" class="text-gray-500 hover:text-gray-800">Who we are</a>
+                    <a href="projects.html" class="text-gray-500 hover:text-gray-800">Projects</a>
+                    <a href="contact.html" class="text-gray-500 hover:text-gray-800">Contact</a>
+                </div>
+                <div class="flex space-x-4">
+                                        <!-- Donate Button -->
+                                        <a href="https://donorbox.org/project-enkishon" target="_blank" class="px-4 py-2 text-white bg-rose-600 rounded-lg hover:bg-rose-700">
+                                            Donate
+                                        </a>
+                    <!-- Language Toggler -->
+                    <div class="relative">
+                        <button type="button" data-dropdown-toggle="language-dropdown-menu-desktop" class="px-4 py-2 text-sm text-gray-900 hover:bg-gray-100 rounded-lg flex items-center">
+                            <img src="img/flag-nl.svg" alt="Dutch" class="w-5 h-5 mr-2">
+                            Dutch
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div class="hidden absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg z-10" id="language-dropdown-menu-desktop">
+                            <ul class="py-1">
+                                <li>
+                                    <a href="https://www.ashefoundation.nl/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                        <img src="img/flag-nl.svg" alt="Dutch" class="w-5 h-5 mr-2"> Dutch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.ashefoundation.net/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                        <img src="img/flag-us.svg" alt="English" class="w-5 h-5 mr-2"> English
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
 </header>
-
-
 <!-- MAIN -->
 <main class="container mx-auto py-16 px-4 sm:px-6 lg:px-8 max-w-6xl">
   <!-- Section: Team -->
