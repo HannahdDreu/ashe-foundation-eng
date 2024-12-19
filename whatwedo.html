@@ -70,14 +70,9 @@
 <!-- HEADER -->
 <header>
   <nav class="bg-white border-solid border-b-2 px-4 lg:px-6 py-4">
-      <div class="flex justify-between items-center mx-auto max-w-screen-xl">
-          <!-- Logo Section -->
-          <a href="https://www.ashefoundation.net/" class="flex items-center bg-white px-3 py-2 rounded-lg">
-              <img src="img/Untitled design.svg" class="h-16 sm:h-20" alt="ASHE Foundation Logo">
-          </a>
-
-          <!-- Right Section: Donate Button, Language Toggler, and Mobile Menu Button -->
-          <div class="inline-flex items-center space-x-4">
+      <div class="mx-auto max-w-screen-xl">
+          <!-- First Row: Language Toggler -->
+          <div class="flex justify-end items-center mb-2 lg:hidden">
               <!-- Language Toggler -->
               <div class="relative">
                   <button type="button" data-dropdown-toggle="language-dropdown-menu" class="px-4 py-2 text-sm text-gray-900 hover:bg-gray-100 rounded-lg flex items-center">
@@ -100,10 +95,13 @@
                       </ul>
                   </div>
               </div>
+          </div>
 
-              <!-- Donate Button -->
-              <a href="https://donorbox.org/project-enkishon" target="_blank" class="px-4 py-2 text-white bg-rose-600 rounded-lg hover:bg-rose-700">
-                  Donate
+          <!-- Second Row: Logo and Hamburger Menu -->
+          <div class="flex justify-between items-center">
+              <!-- Logo -->
+              <a href="https://www.ashefoundation.net/" class="flex items-center bg-white px-3 py-2 rounded-lg">
+                  <img src="img/Untitled design.svg" class="h-16 sm:h-20" alt="ASHE Foundation Logo">
               </a>
 
               <!-- Mobile Menu Button -->
@@ -114,20 +112,40 @@
                   </svg>
               </button>
           </div>
-      </div>
 
-      <!-- Mobile Navigation Menu -->
-      <div class="hidden lg:hidden" id="mobile-menu">
-          <ul class="flex flex-col mt-4 font-medium space-y-2">
-              <li><a href="index.html" class="block py-2 text-gray-500 hover:text-gray-800">Home</a></li>
-              <li><a href="whatwedo.html" class="block py-2 text-gray-500 hover:text-gray-800">What we do</a></li>
-              <li><a href="whoweare.html" class="block py-2 text-gray-500 hover:text-gray-800">Who we are</a></li>
-              <li><a href="projects.html" class="block py-2 text-gray-500 hover:text-gray-800">Projects</a></li>
-              <li><a href="contact.html" class="block py-2 text-gray-500 hover:text-gray-800">Contact</a></li>
-          </ul>
+          <!-- Desktop Navigation Links -->
+          <div class="hidden lg:flex justify-between items-center space-x-6">
+              <a href="index.html" class="text-gray-500 hover:text-gray-800">Home</a>
+              <a href="whatwedo.html" class="text-gray-500 hover:text-gray-800">What we do</a>
+              <a href="whoweare.html" class="text-gray-500 hover:text-gray-800">Who we are</a>
+              <a href="projects.html" class="text-gray-500 hover:text-gray-800">Projects</a>
+              <a href="contact.html" class="text-gray-500 hover:text-gray-800">Contact</a>
+              <!-- Donate Button -->
+              <a href="https://donorbox.org/project-enkishon" target="_blank" class="px-4 py-2 text-white bg-rose-600 rounded-lg hover:bg-rose-700">
+                  Donate
+              </a>
+          </div>
+
+          <!-- Mobile Navigation Menu -->
+          <div class="hidden lg:hidden" id="mobile-menu">
+              <ul class="flex flex-col mt-4 font-medium space-y-2">
+                  <li><a href="index.html" class="block py-2 text-gray-500 hover:text-gray-800">Home</a></li>
+                  <li><a href="whatwedo.html" class="block py-2 text-gray-500 hover:text-gray-800">What we do</a></li>
+                  <li><a href="whoweare.html" class="block py-2 text-gray-500 hover:text-gray-800">Who we are</a></li>
+                  <li><a href="projects.html" class="block py-2 text-gray-500 hover:text-gray-800">Projects</a></li>
+                  <li><a href="contact.html" class="block py-2 text-gray-500 hover:text-gray-800">Contact</a></li>
+                  <li>
+                      <!-- Donate Button -->
+                      <a href="https://donorbox.org/project-enkishon" target="_blank" class="block px-4 py-2 text-center text-white bg-rose-600 rounded-lg hover:bg-rose-700">
+                          Donate
+                      </a>
+                  </li>
+              </ul>
+          </div>
       </div>
   </nav>
 </header>
+
 
 <!-- MAIN -->
 <main class="min-h-screen bg-white text-gray-900 py-12 px-4 sm:px-6 lg:px-8">
